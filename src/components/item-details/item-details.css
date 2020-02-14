@@ -1,0 +1,32 @@
+.person-details {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.person-details .img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    border-radius: 10px;
+}
+
+@media (min-width: 320px) {
+
+    .person-details {
+        margin-bottom: 50px;
+        
+    }
+
+    .person-details .img {
+        width: 75%;
+        height: 75%;
+        margin: 0 auto 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .person-details {
+        margin-bottom: 0;
+    }
+
+}

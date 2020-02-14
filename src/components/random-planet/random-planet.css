@@ -1,0 +1,48 @@
+.random-planet {
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 220px;
+}
+
+.random-planet .img {
+    border-radius: 10px;
+    display: block;
+}
+
+.random-planet .list-group-item {
+    padding: 0.25rem;
+}
+
+@media (min-width: 320px) {
+
+    .random-planet .img {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .random-planet {
+        display: flex;
+    }
+
+    .random-planet .img {
+        width: 50%;
+        height: 50%;
+        margin: 0 20px 0;
+    }
+
+    .planet-details {
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .random-planet .img {
+        width: 20%;
+        height: 20%;
+    }
+}

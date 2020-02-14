@@ -1,0 +1,13 @@
+.item-list {
+    /* width: 90%;
+    constructor() {
+        super()
+        
+    }; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}

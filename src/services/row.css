@@ -1,0 +1,45 @@
+.row {
+    margin: 0 auto;
+}
+
+
+@media (min-width: 320px) {
+    .row-left {
+        width: 100%;
+    }
+    
+    .row-rigth {
+        width: 100%;    
+    }
+    
+}
+
+@media (min-width: 768px) {
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .row-left {
+        width: 50%;
+    }
+    
+    .row-rigth {
+        width: 40%;    
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .row-left {
+        min-width: 40%;
+    }
+    
+    .row-rigth {
+        min-width: 40%;    
+    }
+}
